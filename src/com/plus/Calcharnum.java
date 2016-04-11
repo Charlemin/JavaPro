@@ -7,10 +7,11 @@ import java.util.Scanner;
  */
 public class Calcharnum {
 
+    //统计字符串中每个字符的个数
     public static void main(String[] args){
 
         boolean flag=false;
-        String input="";
+        String input;
         Scanner scanner=new Scanner(System.in);
         input=scanner.nextLine();
         int length=input.length();
@@ -18,16 +19,16 @@ public class Calcharnum {
             int count=0;
             for(int j=0;j<i;j++){
                 flag=false;
-                if(input.charAt(i)==input.charAt(j))
+                if(input.charAt(i)==input.charAt(j)){
                     flag=true;
                     break;
+                }
             }
             if(flag==true)
-                continue;
-            for(int j=i;j<length;j++) {
+               continue;
+            for(int j=i;j<length;j++)
                 if (input.charAt(j) == input.charAt(i))
                     count++;
-            }
                 System.out.println(input.charAt(i) + ":" + count);
 
         }
