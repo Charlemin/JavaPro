@@ -5,18 +5,13 @@ package com.plus;
  */
 public class InsertNum {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Throwable{
 
-        int i,j;
-        int a[]={2,3,5,6,7};
-        int b[]={1,2,4,6,5,7,8,9};
-        int c[]=new int[a.length+b.length];
-        for( i=0;i<a.length;i++)
-            c[i]=a[i];
-        for(i=0,j=a.length;i<b.length;i++,j++)
-            c[j]=b[i];
-        BubbleSort.Asc_Sort(c);
-        for(j=0;j<c.length;j++)
-            System.out.print(c[j]+" ");
+        int i=0;
+        Integer j=new Integer(0);
+
+
+            System.out.print(i==j);
+        System.out.print(j.equals(i));
     }
 }
