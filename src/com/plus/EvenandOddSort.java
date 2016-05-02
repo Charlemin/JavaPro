@@ -16,6 +16,10 @@ public class EvenandOddSort {
         for(int i=0;i<9;i++)
             sum[i]=scanner.nextInt();
         Desc_sort(sum);
+        System.out.print("降序排列是:");
+        for (int i=0;i<9;i++)
+        System.out.print(sum[i]+" ");
+        System.out.println();
         System.out.print("export odd:");
         for(int i=0;i<9;i++) {
             if (sum[i] % 2 == 1)
@@ -23,24 +27,24 @@ public class EvenandOddSort {
         }
         System.out.println();
         System.out.print("export even:");
-        for(int i=8;i>0;i--) {
+        for(int i=8;i>=0;i--) {
             if (sum[i] % 2 == 0)
                 System.out.print(sum[i]+" ");
         }
 
     }
 
-    static void Desc_sort(int[] a){
-        int high;
+    //降序排列
+    public  static void Desc_sort(int[] a){
+        int temp;
         for(int i=0;i<a.length;i++)
-            for(int j=a.length-1;j>i;j--){
-                if(a[j]>a[j-1])
+            for(int j=0;j<a.length-i-1;j++)
+                if(a[j]<a[j+1])
                 {
-                    high=a[j-1];
-                    a[j-1]=a[j];
-                    a[j]=high;
+                    temp=a[j+1];
+                    a[j+1]=a[j];
+                    a[j]=temp;
                 }
             }
-    }
 
 }
