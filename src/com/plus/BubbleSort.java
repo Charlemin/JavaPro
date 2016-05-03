@@ -40,14 +40,12 @@ public class BubbleSort {
 
 
     //升序
-   public static  void Asc_Sort(int[] num)
-    {
-        int i, j;
+   public static  void Asc_Sort(int[] num) {
+
+       int i, j;
         int n=num.length;
         for(i = 0; i < n; i++)
-        {
             for(j = 0; i + j < n - 1; j++)
-            {
                 if(num[j] > num[j + 1])
                 {
                     int temp = num[j];
@@ -55,7 +53,5 @@ public class BubbleSort {
                     num[j + 1] = temp;
                 }
             }
-        }
-    }
 
-}
+  }
