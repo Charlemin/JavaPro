@@ -15,7 +15,7 @@ public class Solution {
         Solution solution=new Solution();
         //System.out.println(solution.reverseVowels("leetcode"));
         //System.out.println(solution.reverseString("abcde"));
-
+        System.out.println(isPowerOfThree(3));
     }
     public String reverseVowels(String s) {
 
@@ -141,7 +141,7 @@ public class Solution {
     public static Map<Integer,Integer> mapsort(Map<Integer,Integer> map){
 
         Map<Integer,Integer> aftermap=new LinkedHashMap<Integer,Integer>();
-       Collection<Integer> collection=map.values();
+        Collection<Integer> collection=map.values();
         Object[] objects=collection.toArray();
         for(int i=0;i<objects.length;i++)
             for(int j=0;j<objects.length-1-i;j++){
@@ -152,7 +152,6 @@ public class Solution {
                     objects[j]=high;
                 }
             }
-
         Set set=map.entrySet();
         for(int j=0;j<objects.length;j++) {
             Iterator it = set.iterator();
@@ -166,4 +165,19 @@ public class Solution {
         return aftermap;
     }
 
+    public static boolean isPowerOfThree(int n) {
+
+        if(n<=0)
+            return false;
+        if(n==1)
+            return true;
+        int i=3;
+        while (true){
+            if(i==n)
+                return true;
+           else if(i<n)
+                i=i*3;
+           else return false;
+        }
+    }
 }
