@@ -27,6 +27,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaPro" target="1.5" />
+      <module name="spring_boot_pro" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

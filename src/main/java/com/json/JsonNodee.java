@@ -41,11 +41,11 @@ public class JsonNodee {
                 "        \"guid\": \"c67ca247-3846-460b-80cc-3605e890fd04\"\n" +
                 "      }\n" +
                 "    ]";
-        ObjectMapper objectMapper=new ObjectMapper();
+        ObjectMapper objectMapper = new ObjectMapper();
         try {
             Map<String,Object>[] policies = objectMapper.readValue(json, new TypeReference<Map<String, Object >[]>(){});
             for(Map<String,Object> policy : policies)
-                System.out.println(policy.get("starttime"));
+                System.out.println(policy.toString());
         } catch (JsonProcessingException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

@@ -50,8 +50,27 @@ public class Json_to_Map {
                 JsonNode rootnode=objectMapper.readTree(json);
                 //String successString=rootnode.get("success").asText();
                 String B=rootnode.get("B").toString();
+                System.out.println(rootnode.get("success").asText());
                 AccountBean accountBean=objectMapper.readValue(B,AccountBean.class);
                 System.out.println(accountBean.getAddress());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        @Test
+        public void test3(){
+            String json = "{\"success\":true,\"A\":{\"address\": \"address2\",\"name\":\"haha2\",\"id\":2,\"email\":\"email2\"},"+
+                    "\"B\":{\"address\":\"address\",\"name\":\"haha\",\"id\":1,\"email\":\"email\"}}";
+            ObjectMapper om=new ObjectMapper();
+            try {
+                Map<String,Object> map=om.readValue(json,Map.class);
+                Map<String,Object> mapA=(Map<String,Object>)map.get("A");
+                System.out.println(mapA.get("name"));
+            }
+            catch (JsonParseException e) {
+                e.printStackTrace();
+            } catch (JsonMappingException e) {
+                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
