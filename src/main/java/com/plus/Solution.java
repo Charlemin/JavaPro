@@ -1,9 +1,8 @@
 package com.plus;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
+import org.junit.Test;
 
 import java.util.*;
-import java.util.function.BooleanSupplier;
 
 /**
  * Created by Administrator on 2016/4/27.
@@ -12,10 +11,12 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        Solution solution=new Solution();
-        //System.out.println(solution.reverseVowels("leetcode"));
-        //System.out.println(solution.reverseString("abcde"));
-        System.out.println(isPowerOfThree(3));
+        Solution solution = new Solution();
+        int[] nums1 = {1,2,3,4,5,6,7,8,9,41,56,8};
+        int[] nums2 = {5,41};
+        int[] result = solution.intersection2(nums1,nums2);
+        for(int i : result)
+            System.out.println(i);
     }
     public String reverseVowels(String s) {
 
@@ -179,5 +180,83 @@ public class Solution {
                 i=i*3;
            else return false;
         }
+    }
+
+    //找出两个数组中相同的数
+    public int[] intersection(int[] nums1,int[] nums2){
+        if(nums1 == null || nums2 == null)
+            return null;
+        Map<Integer,Integer> resultMap = new HashMap<Integer, Integer>();
+        Arrays.sort(nums1);
+        for(int i =0;i < nums2.length;i++){
+            int start = 0;
+            int end = nums1.length - 1;
+            Boolean tag = false;
+            while (start <= end)
+            {
+                int mid = (start + end)/2;
+                if(nums1[mid] == nums2[i]){
+                    tag = true;
+                    break;
+                }
+                if(nums1[mid] < nums2[i])
+                    start = mid +1;
+                if(nums1[mid] > nums2[i])
+                    end = mid -1;
+            }
+            if(tag == true)
+                resultMap.put(nums2[i],nums2[i]);
+        }
+        int[] result = new int[resultMap.size()];
+        int i = 0;
+        Iterator iterator = resultMap.keySet().iterator();
+        while (iterator.hasNext())
+            result[i++] = resultMap.get(iterator.next());
+        return result;
+    }
+
+    public int[] intersection2(int[] nums1,int[] nums2){
+        if(nums1 == null || nums2 == null)
+            return null;
+        Map<Integer,Integer> resultMap = new HashMap<Integer, Integer>();
+        for(int i =0;i < nums2.length;i++){
+            Boolean tag = false;
+            for(int j = 0;j < nums1.length;j++)
+                if (nums1[j] == nums2[i]) {
+                    tag = true;
+                    break;
+                }
+            if(tag == true)
+                resultMap.put(nums2[i],nums2[i]);
+        }
+        int[] result = new int[resultMap.size()];
+        int i = 0;
+        Iterator iterator = resultMap.keySet().iterator();
+        while (iterator.hasNext())
+            result[i++] = resultMap.get(iterator.next());
+        return result;
+    }
+
+    @Test
+    public void testofintersection(){
+        int[] nums1 = {1,2,2,1};
+        int[] nums2 = {2,2};
+        int[] result = intersection(nums1,nums2);
+        for(int i : result)
+            System.out.println(i);
+    }
+    public int sumoftownumbers(int a,int b){
+        int sum = 0;
+        while (b != 0){
+            sum = a ^ b;
+            b = (a & b) << 1;
+            a = sum;
+        }
+        return sum;
+    }
+
+    @Test
+    public void testofsumoftwonumbers(){
+        System.out.println(sumoftownumbers(1,2));
     }
 }
