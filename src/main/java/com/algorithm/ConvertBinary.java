@@ -3,10 +3,10 @@ package com.algorithm;
 /**
  * Created by Administrator on 2016/7/20 0020.
  */
-public class Main {
+public class ConvertBinary {
     public static void main(String[] args) {
 
-        Main main = new Main();
+        ConvertBinary main = new ConvertBinary();
         System.out.println(main.reverseBinary(11));
 
     }
