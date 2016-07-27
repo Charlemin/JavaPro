@@ -7,7 +7,7 @@ public class ConvertBinary {
     public static void main(String[] args) {
 
         ConvertBinary main = new ConvertBinary();
-        System.out.println(main.reverseBinary(11));
+        System.out.println(main.reverseBinary(11));//二进制表示1011
 
     }
 

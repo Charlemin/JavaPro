@@ -22,7 +22,7 @@ public class Scholarship {
             long pin_sum = 0;
             long[] A = new long[n];
             long[] B = new long[n];
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < n; i ++) {
                 A[i] = sc.nextLong();
                 pin_sum += A[i];
                 B[i] = sc.nextLong();
@@ -30,7 +30,7 @@ public class Scholarship {
             long sum = total - pin_sum;
             long time_sum = 0;
             sort(A, B);
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < n; i ++) {
                 if (A[i] < r && sum > 0) {
                     if (sum > r - A[i]) {
                         time_sum += ((r - A[i]) * B[i]);
