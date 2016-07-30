@@ -1,4 +1,4 @@
-package com.plus;
+package com.algorithm;
 
 import java.util.logging.Level;
 
@@ -24,6 +24,23 @@ public class MoveZeroes {
                 nums[i] = temp;
                 j++;
             }
+    }
+
+    public int guess(int num){
+        return 0;
+    }
+
+    //折半查找要找的数
+    public int guessNumber(int n) {
+        if (guess(n) == 0) return n;
+        int left = 1, right = n;
+        while (left < right) {
+            int mid = left + (right - left) / 2, t = guess(mid);
+            if (t == 0) return mid;
+            else if (t == 1) left = mid;
+            else right = mid;
+        }
+        return left;
     }
 
     //判断一个数是不是2的指数

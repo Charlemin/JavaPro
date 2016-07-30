@@ -4,6 +4,7 @@ package com.plus;
  * Created by Eric on 2016/3/17.
  */
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileReader;
 
 public class BufferedReaderTest {

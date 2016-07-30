@@ -10,24 +10,29 @@ public class Prime {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        int i=sc.nextInt();
-        getPrime(i);
+        while (sc.hasNext()) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            System.out.println(getPrime(a,b));
+        }
     }
 
-    //求小于n的所有质数
-    public static void getPrime(int n){
+    //求a和b之间的所有素数个数
+    public static int getPrime(int a,int b){
 
-        for(int i=2;i<n;i++){
-            Boolean flag=true;
-            for(int j=2;j<i;j++){
-                if(i%j==0)
+        int num = 0;
+        for(int i = a + 1;i < b;i ++){
+            Boolean flag = true;
+            for(int j = 2;j < i;j ++){
+                if(i % j==0)
                 {
-                    flag=false;
+                    flag = false;
                     break;
                 }
             }
-            if(flag==true)
-                System.out.println("质数为:" + i);
+            if(i != 1 && flag == true)
+               num++;
         }
+        return num;
     }
 }
