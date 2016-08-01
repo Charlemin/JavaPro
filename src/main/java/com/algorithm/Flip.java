@@ -17,58 +17,59 @@ public class Flip {
       int[][] A = {{0,0,1,1},{1,0,1,0},{0,1,1,0},{0,0,1,0}};
       int[][] f = {{2,2},{3,3},{4,4}};
       Flip flip = new Flip();
-      flip.flipChess(A,f);
+      int[][] B =flip.flipChess(A,f);
         for (int i = 0; i < 4;i ++)
             for (int j = 0;j < 4;j ++)
-                System.out.print(A[i][j] + " ");
+                System.out.print(B[i][j] + " ");
     }
-    public void flipChess(int[][] A, int[][] f) {
+    public int[][] flipChess(int[][] A, int[][] f) {
         for (int i = 0;i < 3;i ++){
             int x = f[i][0] - 1;
             int y = f[i][1] - 1;
-            if ( 0 < x && x < 3 && 0 < y && y < 3){
+            if ( 0 < x && x < 3 && 0 < y && y < 3) {
                 A[x][y + 1] = Math.abs(A[x][y + 1] - 1);
                 A[x][y - 1] = Math.abs(A[x][y - 1] - 1);
                 A[x - 1][y] = Math.abs(A[x - 1][y] - 1);
                 A[x + 1][y] = Math.abs(A[x + 1][y] - 1);
             }
-            if (x == 0 && y == 0)
+            if (x == 0 && y == 0) {
                 A[0][1] = Math.abs(A[0][1] - 1);
                 A[1][0] = Math.abs(A[1][0] - 1);
-            if (x == 0 && y == 3)
+            }
+            if (x == 0 && y == 3) {
                 A[0][2] = Math.abs(A[0][2] - 1);
                 A[1][3] = Math.abs(A[1][3] - 1);
-            if (x == 3 && y == 0)
+            }
+            if (x == 3 && y == 0) {
                 A[2][0] = Math.abs(A[2][0] - 1);
                 A[3][1] = Math.abs(A[3][1] - 1);
-            if (x == 3 && y == 3)
+            }
+            if (x == 3 && y == 3) {
                 A[3][2] = Math.abs(A[3][2] - 1);
                 A[2][3] = Math.abs(A[2][3] - 1);
-            if (x == 0 && 0 < y && y < 3)
-            {
+            }
+            if (x == 0 && 0 < y && y < 3) {
                 A[0][y - 1] = Math.abs(A[0][y - 1] - 1);
                 A[0][y + 1] = Math.abs(A[0][y + 1] - 1);
                 A[1][y] = Math.abs(A[1][y] - 1);
             }
-            if (x == 3 && 0 < y && y < 3)
-            {
+            if (x == 3 && 0 < y && y < 3) {
                 A[3][y - 1] = Math.abs(A[3][y - 1] - 1);
                 A[3][y + 1] = Math.abs(A[3][y + 1] - 1);
                 A[2][y] = Math.abs(A[2][y] - 1);
             }
-            if (y == 0 && 0 < x && x < 3)
-            {
+            if (y == 0 && 0 < x && x < 3) {
                 A[x - 1][0] = Math.abs(A[x - 1][0] - 1);
                 A[x + 1][0] = Math.abs(A[x + 1][0] - 1);
                 A[x][1] = Math.abs(A[x][1] - 1);
             }
-            if (y == 3 && 0 < x && x < 3)
-            {
+            if (y == 3 && 0 < x && x < 3) {
                 A[x - 1][3] = Math.abs(A[x - 1][3] - 1);
                 A[x + 1][3] = Math.abs(A[x + 1][3] - 1);
                 A[x][2] = Math.abs(A[x][2] - 1);
             }
         }
+        return A;
     }
 }
 
