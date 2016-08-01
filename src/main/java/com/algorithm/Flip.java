@@ -48,22 +48,33 @@ public class Flip {
                 A[3][2] = Math.abs(A[3][2] - 1);
                 A[2][3] = Math.abs(A[2][3] - 1);
             }
+
             if (x == 0 && 0 < y && y < 3) {
                 A[0][y - 1] = Math.abs(A[0][y - 1] - 1);
                 A[0][y + 1] = Math.abs(A[0][y + 1] - 1);
                 A[1][y] = Math.abs(A[1][y] - 1);
             }
-            if (x == 3 && 0 < y && y < 3) {
+            if (x == 0 && 0 < y && y < 3)
+            {
+
+                A[0][y - 1] = Math.abs(A[0][y - 1] - 1);
+                A[0][y + 1] = Math.abs(A[0][y + 1] - 1);
+                A[1][y] = Math.abs(A[1][y] - 1);
+            }
+            if (x == 3 && 0 < y && y < 3)
+            {
                 A[3][y - 1] = Math.abs(A[3][y - 1] - 1);
                 A[3][y + 1] = Math.abs(A[3][y + 1] - 1);
                 A[2][y] = Math.abs(A[2][y] - 1);
             }
-            if (y == 0 && 0 < x && x < 3) {
+            if (y == 0 && 0 < x && x < 3)
+            {
                 A[x - 1][0] = Math.abs(A[x - 1][0] - 1);
                 A[x + 1][0] = Math.abs(A[x + 1][0] - 1);
                 A[x][1] = Math.abs(A[x][1] - 1);
             }
-            if (y == 3 && 0 < x && x < 3) {
+            if (y == 3 && 0 < x && x < 3)
+            {
                 A[x - 1][3] = Math.abs(A[x - 1][3] - 1);
                 A[x + 1][3] = Math.abs(A[x + 1][3] - 1);
                 A[x][2] = Math.abs(A[x][2] - 1);
