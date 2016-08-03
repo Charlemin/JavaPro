@@ -23,29 +23,13 @@ public class LocateNum {
             int[] array = new int[numString.length];
             for(int i = 0;i < numString.length;i ++)
                 array[i] = Integer.parseInt(numString[i]);
-            int m = 0,n = array.length - 1;
-            Boolean flag = false;
-            int location = 0;
             int num_A = Integer.parseInt(inputString.substring(inputString.length() - 1));
-            while (m <= n){
-                int mid = m + (n - m) / 2;
-                if (array[mid] == num_A)
-                {
-                    flag = true;
-                    location = mid;
-                    break;
-                }
-                else if ((array[mid] > num_A))
-                    n = mid - 1;
-                else m = mid + 1;
-            }
-            if (flag == true)
-                System.out.println(location);
-            else System.out.println(-1);
+           System.out.println(getPos(array,array.length,num_A));
        }
+
     }
     //折半查找
-    public int getPos(int[] A, int n, int val) {
+    public static int getPos(int[] A, int n, int val) {
         int i = 0, j = A.length - 1;
         Boolean flag = false;
         int location = 0;

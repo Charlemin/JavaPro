@@ -10,30 +10,30 @@ public class BubbleSort {
 
     public static void main(String[] args){
 
-        int a[]={2,3,4,11,6,9,8};
-        int n=a.length;
+        int a[] = {2,3,4,11,6,9,8};
+        int n = a.length;
         Desc_sort(a);
         System.out.print("使用冒泡排序，降序序列为:");
-        for(int i=0;i<n;i++)
-            System.out.print(a[i]+" " );
+        for(int i = 0;i<n;i ++)
+            System.out.print(a[i] + " " );
         System.out.println();
         Asc_Sort(a);
         System.out.print("使用冒泡排序，升序序列为:");
-        for(int i=0;i<n;i++)
-            System.out.print(a[i]+" " );
+        for(int i = 0;i < n;i ++)
+            System.out.print(a[i] + " " );
         }
 
     //降序
   public  static void Desc_sort(int[] a){
 
         int high;
-        for(int i=0;i<a.length;i++)
-           for(int j=0;j<a.length-1-i;j++){
-               if(a[j]<a[j+1])
+        for(int i = 0;i < a.length;i ++)
+           for(int j = 0;j < a.length - 1- i;j ++){
+               if(a[j] < a[j + 1])
                {
-                   high=a[j+1];
-                   a[j+1]=a[j];
-                   a[j]=high;
+                   high = a[j + 1];
+                   a[j + 1] = a[j];
+                   a[j] = high;
                }
            }
     }
