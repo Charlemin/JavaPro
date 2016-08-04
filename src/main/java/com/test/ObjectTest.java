@@ -1,29 +1,32 @@
 package com.test;
 
 import com.sun.javafx.binding.StringFormatter;
+import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.type.TypeReference;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.*;
 
 /**
  * Created by Eric on 2016/8/1.
  */
 public class ObjectTest {
-    public static void main(String[] args) {
-        Map<Integer,Integer> map = new HashMap<Integer, Integer>();
-        map.put(1,1);
-        map.put(2,2);
-        System.out.println(map);
-        ObjectMapper om = new ObjectMapper();
-        try {
-            String mapString = om.writeValueAsString(map);
-            System.out.println(mapString);
-        }catch (IOException e){
-            e.printStackTrace();
-        }
+    public static void main(String[] args) throws IOException {
+        InputStream in = ObjectTest.class.getClassLoader().getResourceAsStream("default.json");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode rootNode = mapper.readTree(reader);
+        String input = rootNode.toString();
+        Map<String,Object> map = mapper.readValue(input, new TypeReference<Map<String, Object>>(){});
+        List<Integer> integers = (List<Integer>) map.get("breach");
+        System.out.println(integers);
+        Iterator<Integer> iterator = integers.iterator();
+        while (iterator.hasNext())
+            System.out.println(iterator.next());
     }
 
     public static int test(){
@@ -32,8 +35,7 @@ public class ObjectTest {
             return 1;
         } catch (Exception e){
             e.printStackTrace();
-        }finally {
-            return 2;
         }
+        return 3;
     }
 }
