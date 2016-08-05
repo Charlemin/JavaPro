@@ -19,7 +19,7 @@ public class MaxDeviation {
 
     public int getDis(int[] A, int n) {
         int maxDev = 0;
-        for (int i = 0;i < n - 1; i ++)
+        for (int i = 0;i < n; i ++)
             for (int j = i; j < n;j ++)
                 if (maxDev < A[j] - A[i] )
                     maxDev = A[j] - A[i];

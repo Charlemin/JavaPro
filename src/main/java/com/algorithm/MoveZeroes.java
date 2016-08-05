@@ -51,11 +51,11 @@ public class MoveZeroes {
     //判断数组中是不是存在重复的数
     public static boolean containsDuplicate(int[] nums) {
         int length = nums.length;
-        boolean flag = false,tag= false;
+        boolean tag= false;
         int count;
         for(int i=0;i<length;i++) {
             count = 0;
-            flag=false;
+            boolean flag=false;
             for(int j=0;j<i;j++)
                 if(nums[i]==nums[j]) {
                     flag = true;
