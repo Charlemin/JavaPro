@@ -34,63 +34,42 @@ import java.util.Scanner;
 public class BigNumSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()){
+        while (sc.hasNext()) {
             String a = sc.nextLine();
             String b = sc.nextLine();
-
             List<Integer> sum = new ArrayList<Integer>();
-            if (a.length() > b.length()){
+            if (a.length() == b.length()) {
                 int carry = 0;
-                for (int i = b.length() - 1,j = a.length() - 1;i >= 0;i --,j --)
-                {
-                    int m = Integer.parseInt(String.valueOf(a.charAt(j)));
-                    int n = Integer.parseInt(String.valueOf(b.charAt(i)));
-                    sum.add((m + n + carry) % 10);
-                    if (m + n +carry >= 10)
-                        carry = 1;
-                    else carry = 0;
-
-                }
-                for (int i = a.length() - b.length() - 1;i >= 0;i --){
-                    int m = Integer.parseInt(String.valueOf(a.charAt(i)));
-                    sum.add((m + carry) % 10);
-                    if (m + carry >= 10)
-                        carry = 1;
-                    else carry = 0;
-                }
-                if (carry == 1)
-                    sum.add(1);
-            }
-            else if (b.length() > a.length()){
-                int carry = 0;
-                for (int i = a.length() - 1,j = b.length() - 1;i >= 0 ;i --,j --)
-                {
-                    int m = Integer.parseInt(String.valueOf(b.charAt(j)));
-                    int n = Integer.parseInt(String.valueOf(a.charAt(i)));
-                    sum.add((m + n + carry) % 10);
-                    if (m + n +carry >= 10)
-                        carry = 1;
-                    else carry = 0;
-
-                }
-                for (int i = b.length() - a.length() - 1;i >= 0;i --){
-                    int m = Integer.parseInt(String.valueOf(b.charAt(i)));
-                    sum.add((m + carry) % 10);
-                    if (m + carry >= 10)
-                        carry = 1;
-                    else carry = 0;
-                }
-                if (carry == 1)
-                    sum.add(1);
-            }
-            else {
-                int carry = 0;
-                for (int i = a.length() - 1;i >= 0;i --)
-                {
+                for (int i = a.length() - 1; i >= 0; i--) {
                     int m = Integer.parseInt(String.valueOf(b.charAt(i)));
                     int n = Integer.parseInt(String.valueOf(a.charAt(i)));
                     sum.add((m + n + carry) % 10);
                     if (m + n + carry >= 10)
+                        carry = 1;
+                    else carry = 0;
+                }
+                if (carry == 1)
+                    sum.add(1);
+            } else
+            {
+                if (a.length() < b.length()) {
+                    String temp = a;
+                    a = b;
+                    b = temp;
+                }
+                int carry = 0;
+                for (int i = b.length() - 1, j = a.length() - 1; i >= 0; i--, j--) {
+                    int m = Integer.parseInt(String.valueOf(a.charAt(j)));
+                    int n = Integer.parseInt(String.valueOf(b.charAt(i)));
+                    sum.add((m + n + carry) % 10);
+                    if (m + n + carry >= 10)
+                        carry = 1;
+                    else carry = 0;
+                }
+                for (int i = a.length() - b.length() - 1; i >= 0; i--) {
+                    int m = Integer.parseInt(String.valueOf(a.charAt(i)));
+                    sum.add((m + carry) % 10);
+                    if (m + carry >= 10)
                         carry = 1;
                     else carry = 0;
                 }
@@ -103,8 +82,8 @@ public class BigNumSum {
                 int k = iterator.next();
                 output += k;
             }
-            for (int i = output.length() - 1;i >= 0; i --)
-            System.out.print(output.charAt(i));
+            for (int i = output.length() - 1; i >= 0; i--)
+                System.out.print(output.charAt(i));
         }
     }
 }

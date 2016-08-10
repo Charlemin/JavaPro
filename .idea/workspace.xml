@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48e69c2-0b5e-45f4-b062-e10bff9e7577" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/BigNumSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/MoneyChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/Main_1.java" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/Main_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/BigNumSum.java" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/BigNumSum.java" />
     </list>
     <ignored path="JavaPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +50,11 @@
       <file leaf-file-name="BigNumSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/BigNumSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+            <state relative-caret-position="445">
+              <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#809#818#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,46 +178,46 @@
             <id />
           </State>
           <State>
-            <id>AOP</id>
-          </State>
-          <State>
             <id>Android &gt; Lint &gt; Correctness</id>
           </State>
           <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability</id>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
           </State>
           <State>
             <id>Android Lint for Kotlin</id>
           </State>
           <State>
-            <id>CDI(Contexts and Dependency Injection) issues</id>
+            <id>Ant inspections</id>
           </State>
           <State>
-            <id>Code style issuesJava</id>
+            <id>Application Server Specific Inspections</id>
           </State>
           <State>
-            <id>Code style issuesJavaScript</id>
+            <id>Control flow issuesJava</id>
           </State>
           <State>
-            <id>FreeMarker inspections</id>
+            <id>Control flow issuesJavaScript</id>
           </State>
           <State>
-            <id>GSPGrailsGroovy</id>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
           </State>
           <State>
             <id>General</id>
           </State>
           <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
+            <id>GeneralJavaScript</id>
           </State>
           <State>
             <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
           </State>
           <State>
             <id>Internationalization issuesJava</id>
@@ -227,7 +226,10 @@
             <id>JBoss Seam issues</id>
           </State>
           <State>
-            <id>JSF annotated elements errors</id>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
           </State>
           <State>
             <id>Java</id>
@@ -242,7 +244,7 @@
             <id>JavaScript validity issuesJavaScript</id>
           </State>
           <State>
-            <id>Modularization issuesJava</id>
+            <id>Maven</id>
           </State>
           <State>
             <id>Plugin DevKit</id>
@@ -254,10 +256,28 @@
             <id>Properties Files</id>
           </State>
           <State>
+            <id>SQL</id>
+          </State>
+          <State>
             <id>Spring</id>
           </State>
           <State>
             <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
           </State>
           <State>
             <id>XML</id>
@@ -265,10 +285,13 @@
           <State>
             <id>XMLSpring CoreSpring</id>
           </State>
+          <State>
+            <id>XSLT</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>Duplicates</id>
           </State>
         </selected-state>
       </profile-state>
@@ -414,7 +437,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../opentsdb-master" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -1116,7 +1139,8 @@
       <workItem from="1470380730393" duration="6824000" />
       <workItem from="1470637426632" duration="10307000" />
       <workItem from="1470711173657" duration="9034000" />
-      <workItem from="1470789958450" duration="772000" />
+      <workItem from="1470789958450" duration="1321000" />
+      <workItem from="1470793007995" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="8-4">
       <created>1470306429738</created>
@@ -1139,7 +1163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470651614336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="8-10">
+      <created>1470790748411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1470790748411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1175,7 +1206,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300367000" />
+    <option name="totallyTimeSpent" value="302447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1197,8 +1228,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39013934" sideWeight="0.5074627" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15671642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38799572" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38799572" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1267,7 +1298,8 @@
     <MESSAGE value="8-4" />
     <MESSAGE value="8-5" />
     <MESSAGE value="8-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8-8" />
+    <MESSAGE value="8-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1667,10 +1699,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/BigNumSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+        <state relative-caret-position="445">
+          <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#809#818#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1754,6 +1787,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
