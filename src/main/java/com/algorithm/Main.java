@@ -10,6 +10,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()){
             int n = sc.nextInt();
+            int m = sc.nextInt();
+            while (n % m != 0){
+                int temp = n % m;
+                n = m;
+                m = temp;
+            }
+            System.out.println(m);
         }
     }
 }

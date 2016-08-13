@@ -6,8 +6,6 @@ import java.util.Scanner;
  * Created by Eric on 2016/3/29.
  */
 public class Calcharnum {
-
-    //统计字符串中每个字符的个数
     public static void main(String[] args){
 
         boolean flag=false;
