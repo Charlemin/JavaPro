@@ -1,4 +1,4 @@
-package com;
+package com.exception;
 
 /**
  * Created by Eric on 2016/6/21.
@@ -16,7 +16,8 @@ public class ExceptionTest {
         }
         catch (Exception e){
             e.printStackTrace();
+        }finally {
+            return 1;
         }
-        return 1;
     }
 }
