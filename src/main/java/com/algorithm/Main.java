@@ -10,13 +10,20 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()){
             int n = sc.nextInt();
-            int m = sc.nextInt();
-            while (n % m != 0){
-                int temp = n % m;
-                n = m;
-                m = temp;
+            int[] xi = new int[n];
+            int[] yi = new int[n];
+            int[] xj = new int[n];
+            int[] yj = new int[n];
+            for (int i = 0;i < n;i ++){
+                xi[i] = sc.nextInt();
+                yi[i] = sc.nextInt();
+                xj[i] = sc.nextInt();
+                yj[i] = sc.nextInt();
             }
-            System.out.println(m);
+            int length[] = new int[n];
+            for (int i = 0;i < n;i ++)
+                length[i] = (xj[i] - xi[i]) *(xj[i] - xi[i]) + (yi[i] - yj[i])* (yi[i] - yj[i]);
+
         }
     }
 }
