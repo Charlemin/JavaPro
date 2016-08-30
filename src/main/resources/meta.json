@@ -1,0 +1,56 @@
+{
+  "currenttimestamp": 12312312,
+  "currentformattime": "2016-04-26 11:03:13",
+  "instancelow": 1,
+  "instancehigh": 3,
+  "metrics": {
+    "policies": [
+      {
+        "metrictype": "CPU",
+        "breach": 1,
+        "metricmax": 80,
+        "metricmin": 20,
+        "isenable": true
+      }
+    ],
+    "interval": 3,
+    "priority": 1,
+    "guid": "GUID_NOT_SET"
+  },
+  "scheduled": {
+    "policies": [
+      {
+        "starttime": 1459759432433,
+        "endtime": 1459799432393,
+        "instanceduring": 12,
+        "instanceafter": 4,
+        "priority": 3,
+        "repeatday": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "isenable": true,
+        "scheduledtype": "RECURRING",
+        "afternumber": 2,
+        "guid": "GUID_NOT_SET"
+      },
+      {
+        "starttime": 1458894770681,
+        "endtime": 1458895070681,
+        "instanceduring": 7,
+        "instanceafter": 7,
+        "priority": 3,
+        "repeatday": [],
+        "isenable": true,
+        "scheduledtype": "ONCE",
+        "afternumber": 3,
+        "guid": "c67ca247-3846-460b-80cc-3605e890fd04"
+      }
+    ]
+  }
+}

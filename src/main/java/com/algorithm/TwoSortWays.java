@@ -40,13 +40,13 @@ public class TwoSortWays {
             String[] strings = new String[n];
             for (int i = 0;i < n;i ++)
                 strings[i] = sc.next();
-            if (isLengthsSort(strings) == true && isLexicographicallySort(strings) == true)
+            if (isLengthsSort(strings) && isLexicographicallySort(strings))
                 System.out.println("both");
-            if (isLengthsSort(strings) == false && isLexicographicallySort(strings) == false)
+            if (!isLengthsSort(strings) && !isLexicographicallySort(strings))
                 System.out.println("none");
-            if (isLengthsSort(strings) == true && isLexicographicallySort(strings) == false)
+            if (isLengthsSort(strings) && !isLexicographicallySort(strings))
                 System.out.println("lengths");
-            if (isLengthsSort(strings) == false && isLexicographicallySort(strings) == true)
+            if (!isLengthsSort(strings) && isLexicographicallySort(strings))
                 System.out.println("lexicographically");
         }
     }
