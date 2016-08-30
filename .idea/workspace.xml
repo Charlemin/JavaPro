@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a48e69c2-0b5e-45f4-b062-e10bff9e7577" name="Default" comment="8-25">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/DeleteNum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/Sum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/Traveling.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/MapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thread/NotifyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/thread/SynchronizeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/meta.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/Mat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/NarcissisticNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/PrintNums.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/algorithm/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/thread/NotifyTest$NotifyThread.class" afterPath="$PROJECT_DIR$/target/classes/com/thread/NotifyTest$NotifyThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/Main_1.java" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/Main_1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/TwoSortWays.java" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/TwoSortWays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/Main.java" />
     </list>
     <ignored path="JavaPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +51,18 @@
     <favorites_list name="JavaPro" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="PrintNums.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/PrintNums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,6 +73,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -78,26 +87,42 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/Prime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/UpGrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/MoveCapitalLetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/AbsNums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thread/ThreadTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/BufferedReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/HighestGrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/FindError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/CountErrors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/ConvertBinary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Scholarship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/testinput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/TesInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Poker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/ConvertIPAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/FirstCoupleChar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/LocateNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/TransferCriminal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/AverageAge.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/FindCoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/MaxDeviation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Apples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/GridPaper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/LuckyString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Flip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/UnderstandBinary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plus/Children.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Album.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/LocateNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Visit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/plus/Zhaohongbao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Zhaohongbao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/ZhaoHongBao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/RoadLight.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Flip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/RoundTable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/plus/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/default.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Fishing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/ObjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/StringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/MushroomArray.java" />
@@ -129,6 +154,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/DeleteNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Traveling.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithm/CommonString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/RoundTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/RoadLight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/WindPig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Cmp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Main2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/NamePretty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Main_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/LittleNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Mat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/PrintNums.java" />
       </list>
     </option>
   </component>
@@ -162,46 +201,46 @@
             <id />
           </State>
           <State>
+            <id>AOP</id>
+          </State>
+          <State>
             <id>Android &gt; Lint &gt; Correctness</id>
           </State>
           <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
           </State>
           <State>
             <id>Android Lint for Kotlin</id>
           </State>
           <State>
-            <id>Ant inspections</id>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
           </State>
           <State>
-            <id>Application Server Specific Inspections</id>
+            <id>Code style issuesJava</id>
           </State>
           <State>
-            <id>Control flow issuesJava</id>
+            <id>Code style issuesJavaScript</id>
           </State>
           <State>
-            <id>Control flow issuesJavaScript</id>
+            <id>FreeMarker inspections</id>
           </State>
           <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>Faces Model</id>
+            <id>GSPGrailsGroovy</id>
           </State>
           <State>
             <id>General</id>
           </State>
           <State>
-            <id>GeneralJavaScript</id>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
           </State>
           <State>
             <id>Groovy</id>
-          </State>
-          <State>
-            <id>Hibernate Issues</id>
-          </State>
-          <State>
-            <id>Initialization issuesJava</id>
           </State>
           <State>
             <id>Internationalization issuesJava</id>
@@ -210,10 +249,7 @@
             <id>JBoss Seam issues</id>
           </State>
           <State>
-            <id>JPA issues</id>
-          </State>
-          <State>
-            <id>JSON</id>
+            <id>JSF annotated elements errors</id>
           </State>
           <State>
             <id>Java</id>
@@ -228,7 +264,7 @@
             <id>JavaScript validity issuesJavaScript</id>
           </State>
           <State>
-            <id>Maven</id>
+            <id>Modularization issuesJava</id>
           </State>
           <State>
             <id>Plugin DevKit</id>
@@ -240,28 +276,10 @@
             <id>Properties Files</id>
           </State>
           <State>
-            <id>SQL</id>
-          </State>
-          <State>
             <id>Spring</id>
           </State>
           <State>
             <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>UI Form Problems</id>
-          </State>
-          <State>
-            <id>Validity issuesGroovy</id>
           </State>
           <State>
             <id>XML</id>
@@ -269,13 +287,10 @@
           <State>
             <id>XMLSpring CoreSpring</id>
           </State>
-          <State>
-            <id>XSLT</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Duplicates</id>
+            <id>Android</id>
           </State>
         </selected-state>
       </profile-state>
@@ -326,6 +341,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,45 +545,25 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../opentsdb-master" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NotifyTest">
-    <configuration default="false" name="Main_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Main_1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaPro" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PrintNums">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.thread.ThreadTester" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,34 +576,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SynchronizeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.thread.SynchronizeTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaPro" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Mat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.MapTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Mat" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -567,14 +596,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="NotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PrintNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.thread.NotifyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.PrintNums" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -584,6 +613,36 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="JavaPro" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MapTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NotifyTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -1010,19 +1069,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main_1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ThreadTester" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SynchronizeTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Mat" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PrintNums" />
       <item index="4" class="java.lang.String" itemvalue="Application.MapTest" />
       <item index="5" class="java.lang.String" itemvalue="Application.NotifyTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NotifyTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MapTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main_1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SynchronizeTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreadTester" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PrintNums" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NotifyTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MapTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Mat" />
       </list>
     </recent_temporary>
   </component>
@@ -1157,6 +1216,9 @@
       <workItem from="1470014702616" duration="15000" />
       <workItem from="1469709879064" duration="680000" />
       <workItem from="1469710710218" duration="49000" />
+      <workItem from="1469846789779" duration="3786000" />
+      <workItem from="1469871980627" duration="5678000" />
+      <workItem from="1469938128357" duration="7489000" />
       <workItem from="1469846789779" duration="3566000" />
       <workItem from="1470015413458" duration="358000" />
       <workItem from="1470017079951" duration="15000" />
@@ -1190,48 +1252,38 @@
       <workItem from="1472109020589" duration="7558000" />
       <workItem from="1472197393951" duration="2587000" />
       <workItem from="1472518889756" duration="696000" />
+      <workItem from="1470101012181" duration="11623000" />
+      <workItem from="1470491409562" duration="773000" />
+      <workItem from="1470492231903" duration="163000" />
+      <workItem from="1471054765200" duration="146000" />
+      <workItem from="1471055533966" duration="2752000" />
+      <workItem from="1471267473556" duration="1743000" />
+      <workItem from="1471431179497" duration="3799000" />
+      <workItem from="1472351089564" duration="402000" />
+      <workItem from="1472354233291" duration="697000" />
+      <workItem from="1472458725648" duration="1221000" />
+      <workItem from="1472521822652" duration="19000" />
     </task>
-    <task id="LOCAL-00001" summary="8-4">
-      <created>1470306429738</created>
+    <task id="LOCAL-00001" summary="8-6">
+      <created>1470491569563</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1470306429738</updated>
+      <updated>1470491569564</updated>
     </task>
-    <task id="LOCAL-00002" summary="8-5">
-      <created>1470388566803</created>
+    <task id="LOCAL-00002" summary="8-6">
+      <created>1471058194139</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1470388566803</updated>
+      <updated>1471058194139</updated>
     </task>
-    <task id="LOCAL-00003" summary="8-8">
-      <created>1470651614336</created>
+    <task id="LOCAL-00003" summary="8-15">
+      <created>1471267753893</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1470651614336</updated>
-    </task>
-    <task id="LOCAL-00004" summary="8-10">
-      <created>1470790748411</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1470790748411</updated>
-    </task>
-    <task id="LOCAL-00005" summary="8-10">
-      <created>1470794550159</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1470794550159</updated>
-    </task>
-    <task id="LOCAL-00006" summary="8-11">
-      <created>1470878735363</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1470878735363</updated>
+      <updated>1471267753893</updated>
     </task>
     <task id="LOCAL-00007" summary="8-15">
       <created>1471226363697</created>
@@ -1240,18 +1292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471226363697</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Junit4Sample - 2016.08.08 at 14h 43m 56s.xml">
-      <configuration name="Junit4Sample" configurationId="JUnit" />
+    <history-entry file="Solution_testofintersection - 2016.07.06 at 15h 46m 20s.xml">
+      <configuration name="Solution.testofintersection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Junit4Sample_testA - 2016.08.08 at 16h 07m 39s.xml">
-      <configuration name="Junit4Sample.testA" configurationId="JUnit" />
+    <history-entry file="Solution_testofintersection - 2016.07.06 at 15h 48m 54s.xml">
+      <configuration name="Solution.testofintersection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Junit4Sample_testB - 2016.08.08 at 14h 44m 17s.xml">
-      <configuration name="Junit4Sample.testB" configurationId="JUnit" />
+    <history-entry file="Solution_testofintersection - 2016.07.06 at 15h 49m 02s.xml">
+      <configuration name="Solution.testofintersection" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Solution_testofsumoftwonumbers - 2016.07.06 at 15h 09m 12s.xml">
       <configuration name="Solution.testofsumoftwonumbers" configurationId="JUnit" />
@@ -1276,7 +1328,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="351412000" />
+    <option name="totallyTimeSpent" value="284894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1293,16 +1345,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3364486" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39013934" sideWeight="0.5074627" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15671642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38421598" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38412017" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32690248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24360341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1314,7 +1367,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3364486" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1390,7 +1442,9 @@
     <MESSAGE value="8-11" />
     <MESSAGE value="8-15" />
     <MESSAGE value="8-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="8-25" />
+    <MESSAGE value="8-6" />
+    <MESSAGE value="8-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1403,154 +1457,77 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MoveCapitalLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/NamePretty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-818">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MoveZeroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/ObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/WindPig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MushroomArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/LocateNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/GridPaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MaxSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MaxDeviation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Balls.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Bonus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/RoadLight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/HighestGrade.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/WindPig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1108">
           <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit/Junit4Sample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Cmp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="836">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Fishing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MushroomArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/FindCoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MaxSpace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Poker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/GridPaper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="660">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Fishing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+        <state relative-caret-position="990">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Kicthen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/CharSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/LuckyBags.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MoneyChange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/CountErrors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
@@ -1585,14 +1562,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/CountErrors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/ZhaoHongBao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/AbsNums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
           <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Warren.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MoneyChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
           <caret line="12" column="41" selection-start-line="12" selection-start-column="1" selection-end-line="13" selection-end-column="47" />
@@ -1634,10 +1618,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exception/TestException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/FindCoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="664">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/TwoSortWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1669,7 +1660,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Fibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/LittleNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/NarcissisticNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Main_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
@@ -1732,6 +1748,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Mat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Poker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1765,6 +1804,30 @@
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/NamePretty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/MoveBooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-744">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/PrintNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1847,17 +1910,6 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
