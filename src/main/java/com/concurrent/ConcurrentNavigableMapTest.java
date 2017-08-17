@@ -1,8 +1,5 @@
 package com.concurrent;
 
-import java.util.concurrent.ConcurrentNavigableMap;
-import java.util.concurrent.ConcurrentSkipListMap;
-
 public class ConcurrentNavigableMapTest {
     public static void main(String[] args) {
 //        ConcurrentNavigableMap map = new ConcurrentSkipListMap();
