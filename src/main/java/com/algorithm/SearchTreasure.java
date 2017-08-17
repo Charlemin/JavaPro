@@ -30,5 +30,6 @@ package com.algorithm;
  */
 public class SearchTreasure {
     public static void main(String[] args) {
+        System.out.println("hrhrh");
     }
 }
