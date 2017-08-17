@@ -46,6 +46,7 @@ public class AbsNums {
             if(Math.abs(array[i] - array[i+1]) > max)
                 max = Math.abs(array[i] - array[i+1]);
         }
+
         for (int i = 0;i < length - 1;i++)
         {
             if(Math.abs(array[i] - array[i+1]) == max)
