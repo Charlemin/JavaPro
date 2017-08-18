@@ -3,7 +3,7 @@ package com.algorithm;
 import java.util.Scanner;
 
 /**
- * Created by Administrator on 2016/7/20 0020.
+ * Created by zhamin on 2016/7/20 0020.
  */
 public class AbsNums {
     public static void main(String[] args) {
