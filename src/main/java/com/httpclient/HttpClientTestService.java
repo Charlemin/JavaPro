@@ -1,4 +1,4 @@
-package com.socket;
+package com.httpclient;
 
 import net.sf.json.JSONObject;
 import org.apache.http.Header;
@@ -7,9 +7,11 @@ import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpOptions;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import java.util.ArrayList;
@@ -20,9 +22,10 @@ public class HttpClientTestService {
 
     public static void main(String[] args) {
 
-        System.out.println(new HttpClientTestService().getTest("http://god-staging.d.pt.xiaomi.com/v2/profile/stars"));
+        //System.out.println(new HttpClientTestService().getTest("http://god-staging.d.pt.xiaomi.com/v2/profile/overseas"));
         //System.out.println(new HttpClientTestService().postRequest("http://god-staging.d.pt.xiaomi.com/tmc/usertaggroupmap/add","{\"groupName\":\"unique\",\"tagName\":\"xmmll_oversea\"}"));
         System.out.println(new HttpClientTestService().postTest("http://god-staging.d.pt.xiaomi.com/tmc/usertaggroupmap/add","{\"groupName\":\"unique\",\"tagName\":\"xmmll_oversea\"}"));
+
     }
 
     public JSONObject getTest(String url){
@@ -45,9 +48,24 @@ public class HttpClientTestService {
         return null;
     }
 
+    public String optionsTest(String url){
+        CloseableHttpClient client = HttpClients.createDefault();
+        CloseableHttpResponse response;
+        try{
+            HttpOptions httpOptions = new HttpOptions(url);
+
+            System.out.println(httpOptions.getMethod());
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+
     public JSONObject postTest(String url,String request){
         CloseableHttpClient client = HttpClients.createDefault();
         CloseableHttpResponse response;
+        BasicClientCookie cookie = new BasicClientCookie("name","zhamin");
+        cookie.setPath("/home/zhamin");
         try{
             HttpPost httpPost = new HttpPost(url);
             List<NameValuePair> formparams = new ArrayList<NameValuePair>();
