@@ -13,7 +13,7 @@ public class HttpClientTestService {
 
     public static void main(String[] args) {
 
-        //System.out.println(new HttpClientTestService().getRequest("zhamin"));
+        System.out.println(new HttpClientTestService().getRequest("zhamin"));
         System.out.println(new HttpClientTestService().postRequest("http://god-staging.d.pt.xiaomi.com/tmc/usertaggroupmap/add","{\"groupName\":\"push\",\"tagName\":\"xmmall_oversea\"}"));
 
     }

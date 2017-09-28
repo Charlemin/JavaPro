@@ -14,4 +14,4 @@ dependency-reduced-pom.xml
 .arcconfig
 .DS_Store
 /npm-debug.log
-*.xml
+.idea/workspace.xml
