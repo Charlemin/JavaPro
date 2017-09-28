@@ -1,0 +1,16 @@
+/.metadata/
+tmp*
+*.bak
+*.diff
+target/
+.idea/
+.classpath
+.project
+.settings/
+*.iml
+.tags*
+*.jar
+dependency-reduced-pom.xml
+.arcconfig
+.DS_Store
+/npm-debug.log
