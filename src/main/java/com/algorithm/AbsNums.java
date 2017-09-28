@@ -3,7 +3,7 @@ package com.algorithm;
 import java.util.Scanner;
 
 /**
- * Created by Administrator on 2016/7/20 0020.
+ * Created by zhamin on 2016/7/20 0020.
  */
 public class AbsNums {
     public static void main(String[] args) {
@@ -46,6 +46,7 @@ public class AbsNums {
             if(Math.abs(array[i] - array[i+1]) > max)
                 max = Math.abs(array[i] - array[i+1]);
         }
+
         for (int i = 0;i < length - 1;i++)
         {
             if(Math.abs(array[i] - array[i+1]) == max)

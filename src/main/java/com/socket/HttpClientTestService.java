@@ -7,7 +7,6 @@ import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.httpclient.params.HttpMethodParams;
-import org.apache.http.protocol.HTTP;
 
 
 public class HttpClientTestService {
