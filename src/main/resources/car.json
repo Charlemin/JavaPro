@@ -1,0 +1,51 @@
+{
+  "status": 200,
+  "msg": "汽车",
+  "result": {
+    "tagModel": {
+      "id": 1968,
+      "uid": "01002003",
+      "name": "是否有车",
+      "uri": "8173",
+      "owner": "wubin1",
+      "data_type": "PHONE_IMEI_MD5",
+      "content": "根据短信等数据源判断一个人有车的概率",
+      "watch_user": "wubin1",
+      "id_name": "ImeiMd5",
+      "field_name": "Has_Car",
+      "field_type": "double",
+      "field_lifecycle": 3838,
+      "field_update_period": "week",
+      "god_extend": "search",
+      "example": "0～1.0之间的小数，代表概率",
+      "wiki": ""
+    },
+    "data4Log": {
+      "id": 8173,
+      "status": 0,
+      "update_interval": 0,
+      "name": "micloud/car_insurance_profile",
+      "uri": "/user/h_data_platform/platform/micloud/car_insurance_profile",
+      "log_preserve_time": 0,
+      "is_partition": 0,
+      "is_nest": 0,
+      "tokafka": 0,
+      "size": 0,
+      "is_user_delete": 0,
+      "is_add_partition": 0,
+      "out_data": 0,
+      "ref_table_id": 0
+    },
+    "partitions": [
+      "date=20170928",
+      "date=20170927",
+      "date=20170926",
+      "date=20170925",
+      "date=20170924",
+      "date=20170923",
+      "date=20170922",
+      "date=20170921"
+    ],
+    "fieldAlertModels": []
+  }
+}

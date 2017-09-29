@@ -19,8 +19,9 @@ public class JsonTest {
     }
     public static void main(String[] args) {
         JsonTest jsonTest = new JsonTest();
-        String input = readUtil.readFromJson("meta.json");
+        String input = readUtil.readFromJson("car.json");
         JSONObject inputJson = JSONObject.fromObject(input);
-        System.out.println(inputJson.getJSONObject("metrics").getJSONArray("policies"));
+        //System.out.println(inputJson.getJSONObject("metrics").getJSONArray("policies"));
+        System.out.println(inputJson.getJSONArray("partitions"));
     }
 }
