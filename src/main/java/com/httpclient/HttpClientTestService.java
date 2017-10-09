@@ -22,10 +22,6 @@ public class HttpClientTestService {
 
     public static void main(String[] args) {
 
-        //System.out.println(new HttpClientTestService().getTest("http://god-staging.d.pt.xiaomi.com/v2/profile/overseas"));
-        //System.out.println(new HttpClientTestService().postRequest("http://god-staging.d.pt.xiaomi.com/tmc/usertaggroupmap/add","{\"groupName\":\"unique\",\"tagName\":\"xmmll_oversea\"}"));
-        System.out.println(new HttpClientTestService().postTest("http://god-staging.d.pt.xiaomi.com/tmc/usertaggroupmap/add","{\"groupName\":\"unique\",\"tagName\":\"xmmll_oversea\"}"));
-
     }
 
     public JSONObject getTest(String url){
