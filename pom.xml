@@ -10,6 +10,18 @@
 
 <dependencies>
 
+    <dependency>
+        <groupId>com.xiaomi</groupId>
+        <artifactId>xiaomi-common-zookeeper</artifactId>
+        <version>2.5.8</version>
+        <exclusions>
+            <exclusion>
+                <groupId>org.apache.lucene</groupId>
+                <artifactId>core</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
     <dependency>
         <groupId>net.sf.json-lib</groupId>
@@ -42,13 +54,6 @@
         <version>4.12</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
-    <dependency>
-        <groupId>commons-httpclient</groupId>
-        <artifactId>commons-httpclient</artifactId>
-        <version>3.1</version>
-    </dependency>
-
     <dependency>
         <groupId>commons-lang</groupId>
         <artifactId>commons-lang</artifactId>
@@ -74,6 +79,13 @@
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
         <version>1.9.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.5.3</version>
     </dependency>
 
 </dependencies>
