@@ -24,4 +24,7 @@ public class JsonTest {
         //System.out.println(inputJson.getJSONObject("metrics").getJSONArray("policies"));
         System.out.println(inputJson.getJSONArray("partitions"));
     }
+
+    protected static void test(){}
+    protected void teste(){}
 }

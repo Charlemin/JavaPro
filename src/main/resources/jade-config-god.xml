@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<jade-config>
+    <catalog id="god_proxy">
+        <databases>
+            <database name="god" role="master" encrypted="false">
+                <url>jdbc:mysql://127.0.0.1:3306/god?useUnicode=true&amp;characterEncoding=utf-8</url>
+                <username>root</username>
+                <password>915250</password>
+                <timeBetweenEvictionRunsMillis>3600000</timeBetweenEvictionRunsMillis>
+                <minEvictableIdleTimeMillis>3600000</minEvictableIdleTimeMillis>
+                <maxWait>1000</maxWait>
+            </database>
+            <database name="god" role="slave" encrypted="false">
+                <url>jdbc:mysql://127.0.0.1:3306/god?useUnicode=true&amp;characterEncoding=utf-8</url>
+                <username>root</username>
+                <password>915250</password>
+                <timeBetweenEvictionRunsMillis>3600000</timeBetweenEvictionRunsMillis>
+                <minEvictableIdleTimeMillis>3600000</minEvictableIdleTimeMillis>
+                <maxWait>1000</maxWait>
+            </database>
+        </databases>
+    </catalog>
+</jade-config>
+

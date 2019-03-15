@@ -1,5 +1,7 @@
 package com.algorithm;
 
+import org.junit.Test;
+
 import java.util.Scanner;
 
 /**
@@ -32,4 +34,15 @@ public class Turret {
             System.out.println(n + threat);
         }
     }
+
+    @Test
+    public void test(){
+        long a = 100000;
+        long b = a;
+        for (int i = 0;i < 3;i ++)
+            b += 1;
+        System.out.println(b);
+    }
+
+    
 }

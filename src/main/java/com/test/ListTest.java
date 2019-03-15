@@ -5,16 +5,19 @@ import java.util.List;
 
 public class ListTest {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>();
-        list.add("0");
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
-        list.add("5");
-        list.add("6");
-        list.add("7");
-        System.out.println(list.subList(0,8));
+        List<String> aer = new ArrayList<String>();
+        String result = "";
+        for (int i = 1;i <=274;i ++){
+            String str = "(" + "\"tag_" + i + "\"" + "," + "\"tag_" +i + "\"" + "," + "\"小米音乐\"" + "," + (2020 + i) + "," + "\"\"" + ")";
+            aer.add(str);
+            result += str + ",";
         }
+
+        UserTagUp userTagUp = new UserTagUp();
+        userTagUp.setName("zhamin");
+        System.out.println(userTagUp + "");
+        System.out.println(result);
+        System.out.println(aer);
     }
+}
 

@@ -1,27 +1,69 @@
 package com.httpclient;
 
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpOptions;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
+
+import java.io.File;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class HttpClientTestService {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
 
+        HttpClientTestService httpClientTestService = new HttpClientTestService();
+//        JSONObject result;
+//        result = httpClientTestService.getTest2("http://data-staging.god.pt.xiaomi.com/tmc/common");
+//        System.out.println(result);
+//        JSONObject request = new JSONObject();
+//        JSONArray jobs = new JSONArray();
+//        JSONObject job = new JSONObject();
+//        JSONObject submitParams = new JSONObject();
+//        job.put("jsonClass","SparkTasks$IdMappingJob");
+//        submitParams.put("executorMemory","4g");
+//        submitParams.put("driverMemory","3g");
+//        submitParams.put("minExecutors",50);
+//        submitParams.put("queue","root.production.cloud_group.data_platform.push");
+//        job.put("submitParams",submitParams);
+//        job.put("input","/user/h_user_profile/zhangxiang3/tmp/pn");
+//        job.put("fromIdType","pnmd5");
+//        job.put("toIdType","phone");
+//        job.put("output","/user/h_user_profile/zhangxiang3/tmp/test_phone");
+//        jobs.add(job);
+//        request.put("jobs",jobs);
+//        System.out.println(httpClientTestService.subSparkJob(request + ""));
+    }
+
+    public JSONObject getTest2(String url){
+        HttpClient client = new DefaultHttpClient();
+        HttpGet httpGet = new HttpGet(url);
+        try{
+            HttpResponse response = client.execute(httpGet);
+            HttpEntity entity = response.getEntity();
+            return JSONObject.fromObject(EntityUtils.toString(entity, "UTF-8"));
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        return null;
     }
 
     public JSONObject getTest(String url){
@@ -81,5 +123,23 @@ public class HttpClientTestService {
             System.out.println(e.getMessage());
         }
         return null;
+    }
+
+    public JSONArray subSparkJob(String jobs) throws UnsupportedEncodingException {
+
+        HttpClient client = new DefaultHttpClient();
+        HttpPost post = new HttpPost("http://json.post.run.pt.xiaomi.com/task/submit");
+        post.addHeader("Content-Type", "application/json");
+        HttpEntity entity = new ByteArrayEntity(jobs.getBytes("UTF-8"));
+        post.setEntity(entity);
+        JSONArray sids = new JSONArray();
+        try {
+            HttpResponse response = client.execute(post);
+            String res = EntityUtils.toString(response.getEntity());
+            sids = JSONArray.fromObject(res);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return sids;
     }
 }

@@ -43,19 +43,19 @@ public class Json_to_Map {
 
         @Test
         public void test2(){
-            String json = "{\"success\":true,\"A\":{\"address\": \"address2\",\"name\":\"haha2\",\"id\":2,\"email\":\"email2\"},"+
-                    "\"B\":{\"address\":\"address\",\"name\":\"haha\",\"id\":1,\"email\":\"email\"}}";
-            ObjectMapper objectMapper=new ObjectMapper();
-            try {
-                JsonNode rootnode=objectMapper.readTree(json);
-                //String successString=rootnode.get("success").asText();
-                String B=rootnode.get("B").toString();
-                System.out.println(rootnode.get("success").asText());
-                AccountBean accountBean=objectMapper.readValue(B,AccountBean.class);
-                System.out.println(accountBean.getAddress());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//            String json = "{\"success\":true,\"A\":{\"address\": \"address2\",\"name\":\"haha2\",\"id\":2,\"email\":\"email2\"},"+
+//                    "\"B\":{\"address\":\"address\",\"name\":\"haha\",\"id\":1,\"email\":\"email\"}}";
+//            ObjectMapper objectMapper=new ObjectMapper();
+//            try {
+//                JsonNode rootnode=objectMapper.readTree(json);
+//                //String successString=rootnode.get("success").asText();
+//                String B=rootnode.get("B").toString();
+//                System.out.println(rootnode.get("success").asText());
+//                AccountBean accountBean=objectMapper.readValue(B,AccountBean.class);
+//                System.out.println(accountBean.getAddress());
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
         }
         @Test
         public void test3(){

@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * Created by Eric on 2016/6/24.
  */
-public class JsonNodee {
+public class JsonNodee extends JsonTest{
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -53,6 +53,10 @@ public class JsonNodee {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
     }
+
+
+
+    protected static void test(){}
+    protected void teste(){}
 }

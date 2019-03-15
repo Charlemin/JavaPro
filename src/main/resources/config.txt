@@ -1,0 +1,3 @@
+god_proxy=/jade/config/god_proxy.xml
+user_behavior_bk=/jade/config/user_behavior_bk.xml
+push_proxy=/jade/config/push_proxy.xml
